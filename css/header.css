@@ -5,13 +5,13 @@ header {
 nav {
     background-color: var(--primary-color);
     height: 50px;
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
     border-radius: 50px;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 main {
     display: flex;
@@ -28,16 +28,18 @@ main {
     width: 50%;
 }
 .items img {
-    width: 60%;
+    width: 85%;
     object-fit: cover;
     
 }
 .items-title {
-    font-size: 1.5rem;
+    font-size: 3.125rem;
     font-weight: bold;
     color: var(--secondary-color);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
 }
 @media screen and (max-width: 600px) {
