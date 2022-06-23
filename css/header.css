@@ -17,8 +17,9 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    height: 83vh;
     margin-top: 1rem;
+    
 }
 .items {
     justify-content: center;
@@ -43,7 +44,7 @@ main {
     width: 50%;
 }
 @media screen and (max-width: 600px) {
-   .main {
+   /* .main {
     justify-content: center;
    }
     .items-title {
@@ -53,5 +54,5 @@ main {
     }
     .items > img {
         display: none;
-    }
+    } */
 }

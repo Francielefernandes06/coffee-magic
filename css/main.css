@@ -16,7 +16,8 @@ body{
     flex-direction: column;
     font-family: 'karla', sans-serif;
     position:relative;
-    background-color: #000;
+    background: rgb(0,0,0);
+background: linear-gradient(47deg, rgba(0,0,0,1) 50%, var(--secundary-color) 100%);
     color: var(--text-color);
 }
 a {
