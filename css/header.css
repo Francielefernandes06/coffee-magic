@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    background-color: var(--primary-color);
+    width: 80%;
+    position: absolute;
+    width: 925px;
+    height: 47px;
+    left: 217px;
+    top: 48px;
+    border-radius: 38px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
