@@ -22,11 +22,22 @@ body{
 a {
     text-decoration: none;
     color: var(--text-color);
+    font-size: 20px;
 }
 ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7.813rem;
 }
 li {
     display: inline-block;
     margin-right: 10px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
 }
