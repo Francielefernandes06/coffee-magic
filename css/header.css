@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: center;
 }
+
 nav {
     background-color: var(--primary-color);
     height: 50px;
@@ -13,14 +14,16 @@ nav {
     border-radius: 50px;
     margin-top: 3rem;
 }
+
 main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 83vh;
     margin-top: 1rem;
-    
+
 }
+
 .items {
     justify-content: center;
     display: flex;
@@ -28,11 +31,13 @@ main {
     margin: 0;
     width: 50%;
 }
+
 .items img {
     width: 85%;
     object-fit: cover;
-    
+
 }
+
 .items-title {
     font-size: 3.125rem;
     font-weight: bold;
@@ -43,8 +48,9 @@ main {
     align-items: center;
     width: 50%;
 }
+
 @media screen and (max-width: 600px) {
-   /* .main {
+    /* .main {
     justify-content: center;
    }
     .items-title {

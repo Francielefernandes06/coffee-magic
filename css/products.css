@@ -6,25 +6,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(0,0,0);
-background: linear-gradient(47deg, rgba(0,0,0,1) 25%, var(--secundary-color) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(47deg, rgba(0, 0, 0, 1) 25%, var(--secundary-color) 100%);
 }
-.products > button {
+
+.products>button {
     width: 30%;
     padding: 10px;
 }
+
 .products h3 {
     text-align: center;
     margin-top: 20px;
     font-size: 2.5rem;
-   padding-top: 4.688rem;
+    padding-top: 4.688rem;
 }
+
 .products p {
     text-align: center;
     margin-top: 20px;
     font-size: 1rem;
     padding: auto;
 }
+
 .products .container-cards {
     display: flex;
     flex-direction: row;
@@ -34,6 +38,7 @@ background: linear-gradient(47deg, rgba(0,0,0,1) 25%, var(--secundary-color) 100
     margin: auto;
     gap: 6.25rem;
 }
+
 .products .container-cards .card {
     height: 30rem;
     width: 20rem;
@@ -45,11 +50,13 @@ background: linear-gradient(47deg, rgba(0,0,0,1) 25%, var(--secundary-color) 100
     background-color: #f5f5f5;
     margin: 10px;
 }
+
 .products .container-cards .card .image-card {
     width: 86%;
     height: 55%;
     object-fit: cover;
-}   
+}
+
 /* @media screen and (max-width: 600px) {
     .products .container-cards .card {
         width: 100%;
