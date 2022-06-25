@@ -32,7 +32,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 7.813rem;
+    gap: 4.813rem;
 }
 
 li {
