@@ -4,6 +4,7 @@ header {
 }
 
 nav {
+    position: fixed;
     background-color: var(--primary-color);
     height: 50px;
     width: 60%;
@@ -19,7 +20,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 83vh;
+    height: 100vh;
     margin-top: 1rem;
 
 }
